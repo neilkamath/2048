@@ -10,10 +10,7 @@ import org.junit.jupiter.api.Timeout;
 import static com.google.common.truth.Truth.assertWithMessage;
 import static game2048logic.TestUtils.checkTilt;
 
-/** Tests methods on N by N (not 4 by 4) models
- *
- * @author Samuel Berkun, Ergun Acikoz
- */
+/** Tests methods on N by N (not 4 by 4) models */
 @Timeout(value = 60, threadMode = Timeout.ThreadMode.SEPARATE_THREAD)
 public class TestNbyN {
     /** Tilting an empty 1 by 1 */
