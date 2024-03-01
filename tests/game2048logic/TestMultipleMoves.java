@@ -18,10 +18,6 @@ public class TestMultipleMoves {
      * *************************
      * *  MULTIPLE MOVE TESTS  *
      * *************************
-     * <p>
-     * The following tests will call the `tilt` method multiple times and check
-     * the correctness of the board after each move. You shouldn't expect these
-     * tests to pass until all of the above tests pass.
      */
 
 
