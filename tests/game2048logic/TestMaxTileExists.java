@@ -8,10 +8,7 @@ import org.junit.jupiter.api.Timeout;
 
 import static com.google.common.truth.Truth.assertWithMessage;
 
-/** Tests the maxTileExists() method of Model.
- *
- * @author Omar Khan
- */
+/** Tests the maxTileExists() method of Model. */
 @Timeout(value = 60, threadMode = Timeout.ThreadMode.SEPARATE_THREAD)
 public class TestMaxTileExists {
     /** Note that this isn't a possible board state. */
