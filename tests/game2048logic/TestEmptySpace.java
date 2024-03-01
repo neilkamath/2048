@@ -9,10 +9,7 @@ import org.junit.jupiter.api.Timeout;
 import static com.google.common.truth.Truth.assertWithMessage;
 
 
-/** Tests the emptySpaceExists() method of Model.
- *
- * @author Omar Khan
- */
+/** Tests the emptySpaceExists() method of Model. */
 @Timeout(value = 60, threadMode = Timeout.ThreadMode.SEPARATE_THREAD)
 public class TestEmptySpace {
 
@@ -115,10 +112,7 @@ public class TestEmptySpace {
         assertWithMessage("Board is not full\n" + m.getBoard()).that(m.emptySpaceExists()).isTrue();
     }
 
-    /** Tests a completely full board.
-     * The game isn't over since you can merge, but the emptySpaceExists method
-     * should only look for empty space (and not adjacent values).
-     */
+    /** Tests a completely full board. */
     @Test
     @Tag("empty-space")
     @DisplayName("Full board with valid merge")
