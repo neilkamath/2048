@@ -7,11 +7,7 @@ import org.junit.jupiter.api.Timeout;
 
 import static com.google.common.truth.Truth.assertWithMessage;
 
-/** Tests the moveTileUpAsFarAsPossible() method of Model.
- *
- *
- * @author Erik Kizior
- */
+/** Tests the moveTileUpAsFarAsPossible() method of Model. */
 @Timeout(value = 60, threadMode = Timeout.ThreadMode.SEPARATE_THREAD)
 public class TestMoveTileUp {
 
