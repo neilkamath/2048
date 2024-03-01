@@ -15,9 +15,6 @@ public class TestModel {
      * ***********************
      * *  TESTING GAME OVER  *
      * ***********************
-     * <p>
-     * The following tests determine the correctness of your `checkGameOver`
-     * method.
      */
 
     /** No tilt can cause a change. */
